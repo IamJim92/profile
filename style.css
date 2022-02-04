@@ -1,0 +1,110 @@
+body {
+  background-color: #d8dde0;
+}
+
+/* #base {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #C8C6C6;
+} */
+
+#header {
+
+  border: 30px solid black;
+  background: linear-gradient(135deg,
+                    rgba(0, 0, 0, 0.8) 0%,
+                    rgba(0, 0, 0, 0.3) 50%),
+                    url("images/matrix.jpg");
+
+  position: relative;
+}
+
+#header
+
+#profile_pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 5% 0%;
+  border: 20px dashed black;
+  position: relative;
+  top: 33px;
+  left: 294px;
+}
+
+
+
+div {
+  margin: 5px;
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px rgb(168, 168, 168);
+}
+
+h1 {
+  font-family: 'Bowlby One SC', cursive;
+  color: white;
+  position: absolute;
+  top: 282px;
+  right: 30px;
+
+}
+
+
+.band_img {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  object-fit: cover;
+  filter: grayscale(90%);
+}
+
+.band_box{
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  border: 2px dashed #6C4A4A;
+
+}
+
+.band_box:hover {
+  /* background-color: yellow; */
+  color: black;
+
+}
+
+.band_img {
+  border: 2px solid black;
+}
+
+.band_img:hover {
+  filter: none;
+}
+
+.band_box h6 {
+  color: white;
+}
+
+#mc {
+  /* background-image: url("images/old_wallpaper.jpg"); */
+  background: linear-gradient(180deg,
+                    rgba(0, 0, 0, 0.6) 0%,
+                    rgba(0, 0, 0, 0.6) 100%),
+                    url("images/old_wallpaper.jpg");
+
+  position: relative;
+
+
+  display: flex;
+}
+
+#card1 {
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+  background-color: red;
+}
+
+/* li {
+  display: flex;
+} */
